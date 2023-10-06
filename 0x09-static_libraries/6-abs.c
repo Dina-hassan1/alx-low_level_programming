@@ -1,34 +1,10 @@
-#include "main.h"
+#include "holberton.h"
 /**
-* _abs - prints the absolute value of a number
-*@i: number targeted
-*Return: returns 0
-*/
-int _abs(int i)
+ * _abs - returns absolute value of n
+ * @n: integer to be tested
+ * Return: abs(n)
+ */
+int _abs(int n)
 {
-if (i > 0)
-return (i);
-else if (i < 0)
-return (-i);
-else
-return (0);
+	return (n < 0 ? -1 * n : n);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
